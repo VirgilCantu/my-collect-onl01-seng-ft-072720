@@ -3,8 +3,6 @@ i = 0
 collection = []
 while i < array.length
 yield(array[i])
-co
 i += 1 
   end
-  collection << yield(array[i])
 end
