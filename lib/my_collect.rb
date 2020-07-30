@@ -1,7 +1,7 @@
-def my_collect(collection)
+def my_collect(array)
 i = 0 
-while i < collection.length
-yield(collection[i])
+while i < array.length
+yield(array[i])
 i += 1 
   end
   collection
