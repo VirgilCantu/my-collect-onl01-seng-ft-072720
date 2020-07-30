@@ -6,5 +6,5 @@ yield(array[i])
 co
 i += 1 
   end
-  collection
+  collection << yield(array[i])
 end
